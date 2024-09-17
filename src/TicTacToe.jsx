@@ -128,7 +128,7 @@ const TicTacToe = () => {
 
 const Winner1 = ({winner,resetGame}) => {
   return(
-    <div className='absolute top-[20%] left-[33%] h-[50vh] w-[55vh] bg-orange-300 rounded-lg border border-black shadow-orange-400 shadow-lg  text-5xl text-black flex flex-col justify-center items-center gap-8'>
+    <div className='absolute top-[20%] left-[37%] h-[50vh] w-[55vh] bg-orange-300 rounded-lg border border-black shadow-orange-400 shadow-lg  text-5xl text-black flex flex-col justify-center items-center gap-8'>
       <h1>'{winner}' won !</h1>
       <button
       className='text-red-600 p-[10px] border-transparent'
